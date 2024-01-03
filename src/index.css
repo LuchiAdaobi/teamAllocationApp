@@ -45,7 +45,7 @@ h5 {
 
 @media screen and (max-width: 768px) {
   .card-collection {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
   }
 
   h1,
