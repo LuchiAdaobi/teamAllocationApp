@@ -64,7 +64,7 @@ function App() {
           ></Route>
           <Route
             path="/GroupedTeamMembers"
-            element={<GroupedTeamMembers />}
+            element={<GroupedTeamMembers employees ={employees} selectedTeam={selectedTeam} setSelectedTeam={setSelectedTeam} />}
           ></Route>
           <Route
             path="*"

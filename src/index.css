@@ -47,4 +47,16 @@ h5 {
   .card-collection {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  h1,
+h2
+ {
+  font-size: 1.5rem;
+}
+h3, h4,h5{
+  font-size: 1.2rem;
+}
+nav{
+  font-size: .8rem;
+}
 }
